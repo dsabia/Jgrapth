@@ -1,4 +1,21 @@
-The Problem 
+### About the implementation
+
+I realized only some part of the exercises, not full point, I skipped the point 6, 7 and 10.
+
+I've used only the external library *jgrapth.org* and *junit.org*.
+
+I'm not focused to solve graph algorithms, I just used Dijkstra alghorithm when appropriate.
+
+No spring for services, but used code static for the logic's implementaton.
+
+Use of Junit to generate both Unit and Integration  Test.
+
+No runnable file implementad for the simulation of the exercise, guarantee the point are corrected executed the Integration Test.
+
+
+
+### The Problem 
+
 The local commuter rail road services a number of towns in Ireland.  Because of monetary concerns, all of the tracks are 'one-way.' That is, a route from Dublin to Galway does not imply the existence of a route from Galway to Dublin.  In fact, even if both of these routes do happen to exist, they are distinct and are not necessarily the same distance! 
 The purpose of this problem is to help the rail road provide its customers with information about the routes.  In particular, you will compute the distance along a certain route, the number of different routes between two towns, and the shortest route between two towns.  
 Inputs A directed graph where a node represents a town and an edge represents a route between two towns.  The weighting of the edge represents the distance between the two towns.  A given route will never appear more than once, and for a given route, the starting and ending town will not be the same town.  
@@ -24,21 +41,21 @@ Find the length of the shortest route…
 Find the number of Routes… 
 10. Find the number of different routes from C to C with a distance of less than 30.  In the sample data, the trips are: CDC, CEBC, CEBCDC, CDCEBC, CDEBC, CEBCEBC and CEBCEBCEBC. 
  
-Test Data  
+### Test Data  
 For the test input, the towns are named using the first few letters of the alphabet from A to E.  A route between two towns (A to B) with a distance of 5 is represented as AB5. 
-The Input graph for the tests is:  “AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7”.  
+The Input graph for the tests is:  **“AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7”**.  
 
-Expected Output 
-Output #1: 9 
-Output #2: 5 
-Output #3: 13 
-Output #4: 22 
-Output #5: NO SUCH ROUTE 
-Output #6: 2 
-Output #7: 3 
-Output #8: 9 
-Output #9: 9 
-Output #10: 7  
+#### Expected Output 
+ * Output #1: 9 
+ * Output #2: 5 
+ * Output #3: 13 
+ * Output #4: 22 
+ * Output #5: NO SUCH ROUTE 
+ * Output #6: 2 
+ * Output #7: 3 
+ * Output #8: 9 
+ * Output #9: 9 
+ * Output #10: 7  
 
 Notes & Guidelines 
 The solution must be written in Java or C#.  The solution should include some automated testing code.  The final output should contain some interface to allow the user to run the program. Whether this is graphical or command-line based is a matter for you to decide.  You should provide some elementary instructions to help the would-be user get up and running with the program. 
